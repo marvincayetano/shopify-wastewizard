@@ -1,4 +1,4 @@
-![](http://i.imgur.com/UjDPesF.png)
+![](http://www.giphy.com/gifs/BMtxrdzPw4Uven17l6)
 
 ## Introduction
 
