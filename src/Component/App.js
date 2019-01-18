@@ -34,7 +34,7 @@ class App extends Component {
 
   handleChange = event => {
     this.setState({[ event.target.name ]: event.target.value});
-    if(event.target.value.trim() === '') this.setState({filteredWaste: []})
+    if(!event.target.value.trim()) this.setState({filteredWaste: []})
   }
 
   handleKeyPress = event => {
