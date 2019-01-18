@@ -22,7 +22,7 @@ const AppHeader = styled.header`
 const FavouriteDiv = styled.div`
   background-color: ${color.LIGHTGREEN};
   display: grid;
-  padding: 20px 0 15px 0;
+  padding: 20px 20px 15px 20px;
   > span {
     color: ${color.DARKGREEN};
     font-size: 1.8em;

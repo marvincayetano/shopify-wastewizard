@@ -91,24 +91,24 @@ class App extends Component {
               filteredWaste.map(waste => <Waste key={waste.id} id={waste.id} title={waste.title} body={waste.body} handler={handleStarPress} isFavourite={waste.isFavourite}/>)
             }
           </ResultDiv>
-          {
-            favouriteWaste.length?
-            <FavouriteDiv>
-                <span>Favourites</span>
-                <FavouriteListDiv>
-                {
-                  waste.map(waste => {
-                    if(favouriteWaste.some(favWaste => favWaste === waste.id)){
-                      return (<Waste key={waste.id} id={waste.id} title={waste.title} body={waste.body} handler={handleStarPress} isFavourite={true}/>)
-                    }
-                    return null;
-                  })
-                }
-                </FavouriteListDiv>
-            </FavouriteDiv>
-            : null
-          }
         </WrapperDiv>
+        {
+          favouriteWaste.length?
+          <FavouriteDiv>
+              <span>Favourites</span>
+              <FavouriteListDiv>
+              {
+                waste.map(waste => {
+                  if(favouriteWaste.some(favWaste => favWaste === waste.id)){
+                    return (<Waste key={waste.id} id={waste.id} title={waste.title} body={waste.body} handler={handleStarPress} isFavourite={true}/>)
+                  }
+                  return null;
+                })
+              }
+              </FavouriteListDiv>
+          </FavouriteDiv>
+          : null
+        }
       </AppDiv>
     );
   }
