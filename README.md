@@ -1,4 +1,4 @@
-![](https://imgur.com/UjDPesF)
+![](http://i.imgur.com/UjDPesF.png)
 
 ## Introduction
 Toronto lookup waste lookup is an application that will help
