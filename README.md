@@ -1,4 +1,4 @@
-![](http://www.giphy.com/gifs/BMtxrdzPw4Uven17l6)
+![](https://media.giphy.com/media/BMtxrdzPw4Uven17l6/200w_d.gif)
 
 ## Introduction
 
