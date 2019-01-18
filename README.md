@@ -1,7 +1,7 @@
 ![](http://i.imgur.com/UjDPesF.png)
 
 ## Introduction
-Toronto lookup waste lookup is an application that will help
+Toronto lookup waste lookup is an application that helps
 to find specific waste.
 
 This application is created using ReactJS, Styled-Components, CSS Grid.
