@@ -33,12 +33,13 @@ class App extends Component {
   }
 
   handleChange = event => {
-    if(this.state.keyword.trim() === "") this.setState({filteredWaste: []})
-    console.log(this.state.keyword);
     this.setState({[ event.target.name ]: event.target.value});
+    if(event.target.value.trim() === '') this.setState({filteredWaste: []})
   }
 
-  handleKeyPress = event => { if(event.key === 'Enter') this.handleSearch(event); }
+  handleKeyPress = event => {
+    if(event.key === 'Enter') this.handleSearch(event);
+  }
 
   handleSearch = () => {
    if(this.state.keyword !== "") {
