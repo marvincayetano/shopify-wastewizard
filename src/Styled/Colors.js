@@ -1,14 +1,15 @@
 const color = {
-  blue: '#1F5A94',
-  green: '#22985E',
-  lightgreen: '#F7FEFA',
-  darkgreen: '#23995D',
-  gray: '#BEBEBE',
-  darkgray: '#333333',
+  BLUE: '#1F5A94',
+  GREEN: '#22985E',
+  LIGHTGREEN: '#F7FEFA',
+  DARKGREEN: '#23995D',
+  GRAY: '#BEBEBE',
+  LIGHGRAY: '#AAAAAA',
+  DARKGRAY: '#333333',
 }
 
 const font = {
-  white: '#FFFFFF',
+  WHITE: '#FFFFFF',
 }
 
 export {

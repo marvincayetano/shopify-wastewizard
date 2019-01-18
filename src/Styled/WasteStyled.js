@@ -6,7 +6,7 @@ const WasteDiv = styled.div`
   grid-template-columns: minmax(min-content, 30px) 2fr 4fr minmax(0, 15px);
   margin: 20px 0 15px 0;
   font-size: 1.2rem;
-  color: ${color.darkgray};
+  color: ${color.DARKGRAY};
   text-align: left;
   > span ul {
     margin: 0;
@@ -17,10 +17,10 @@ const WasteDiv = styled.div`
 `;
 
 const StarSvg = styled.svg`
-  fill: ${props => props.isFavourite? '#22985E' : '#aaa'};
+  fill: ${props => props.isFavourite? color.GREEN : color.LIGHTGRAY};
 
   &:hover {
-    fill: ${color.green};
+    fill: ${color.GREEN};
     cursor: pointer;
   }
 `;
