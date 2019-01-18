@@ -1,4 +1,10 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![](https://imgur.com/UjDPesF)
+
+## Introduction
+Toronto lookup waste lookup web app is an application that will help
+to find specific waste 
+
+This application is created using ReactJS, Styled-Components, CSS Grid
 
 ## Available Scripts
 
